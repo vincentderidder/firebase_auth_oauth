@@ -1,6 +1,6 @@
 import 'package:firebase/firebase.dart' as web;
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:firebase_auth_oauth_platform_interface/firebase_auth_oauth_platform_interface.dart';
+import '/firebase_auth_oauth_platform_interface.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter_web_plugins/flutter_web_plugins.dart';
 

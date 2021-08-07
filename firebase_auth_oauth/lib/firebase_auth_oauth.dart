@@ -1,8 +1,7 @@
 library firebase_apple_auth;
 
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:firebase_auth_oauth_platform_interface/firebase_auth_oauth_platform_interface.dart'
-    as platform;
+import './firebase_auth_oauth_platform_interface.dart' as platform;
 import 'package:firebase_core/firebase_core.dart';
 
 class FirebaseAuthOAuth implements platform.FirebaseAuthOAuth {
